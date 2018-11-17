@@ -10,13 +10,14 @@
       div {width:1200px;background-color: white}
       .div {width:500px}
       .div2 {width:1280px}
-      P {font-family:serif ; }      
+      P {font-family:serif ; }
+      .button{text-align: right}
       .Head {text-align:inherit;font-size: 24px}
       .body {text-align:inherit;font-size:24px}
       table{font-family:monospace}
       UL {font-family:fantasy}
       Body {background-color:#1075ff}
-      Img {Float:right;padding-top:3.3em}
+      Img {Float:right;padding-top:3.3em;width:360;height: 360}
       Figcaption {padding-left:;text-decoration: underline;text-align:right}
       TD{Background-color:white}
       table{background-color:#CCFFFF}
@@ -24,17 +25,34 @@
       H1 {text-align: center; color:white}
       H2 {text-align: center; color:black}
       .how {color:whitesmoke}
+      .img2 {float:right}
      
     
     
   </style>
 </head>
 <body>
-    
-     <H1>How to Shoot a Soccer Ball</H1>
+    <H1>How to Shoot a Soccer Ball</H1>
+    <script type=img>
+    function light(sw) {
+    var pic;
+    if (sw == 0) {
+    pic="ball.jpg"
+    } else {
+    pic="Soccerball.jpg"}
+    document.getElementById('MyImage').src=pic;}</script>
+    <div><img id="MyImage" src="ball.jpg" alt="Where to strike soccerball" width="360" height="360">
+    <p class="button">
+    Click the on button to see where to strike the ball!
+    <button type="button" onclick="light(1)">highlight on</button>
+    <button type="button" onclick="light(0)">highlight off</button>
+
+    </p>
+        </div>
         <div style="text-align:left">
-        <img src="Soccerball.jpg" alt="Where to Strike Soccerball" height="360" width="360">
+        
         <H2>Why?</H2>
+            
      <p class="body" style="padding-top:em">Shooting is one of the most important and fundamental skill you can learn in Soccer. Learning to shoot the ball with accuracy, power, and precision can enhance any players' chances of doing well in the game of Soccer. A consistent shot starts with the fundamentals, and it is nearly impossible to have a good shot with poor technique. However, with practice and the help of this website, anyone can put in the work to have a great shot. 
     <H2>Correct technique</H2>
     <p class= "Head"> In order to learn to shoot a soccer ball with power and precision, one must make precautions to use the right technique. These precautions will help with many problems that will make your shot unpredictable. The most important factors to consider when shooting is: </p>
@@ -53,8 +71,10 @@
             <LI>Placement foot</LI>
             <LI>Point of impact</LI>
         </UL>
-       
-
+  </div>
+    <div>
+    <img src="cockback.jpg" alt="cock back your swinging leg as far back as possible" width="405" height="225"
+         Style= "float:right"></div>
         <table border="width 100%">
             <caption>Correct technique</caption>
     <tr>   
@@ -68,12 +88,16 @@
     </tr>
     <tr>
         <td>Point of impact</td><td>Slightly below or above dead center of ball with the metatarsal</td><td>Allows a straight trajectory of ball</td>
-    </tr>
-</table>
-    </div>
+  
+
+  </tr> 
+ </table>
+    
+    <P class="body" style= background-color:white>First, placement of the planting foot should be around 6-12 inches from the ball. If you are right footed, then plant with your left foot and vice versa.  As you are running up to the ball, make sure to keep your eyes on the ball during the entire duration of your shot. Cock back your swinging leg as far back as possible, and swing through the ball towards the target. The follow through is very important as it helps keeps the ball straight and low. 
+    </P>
     
  <P Style= color:white>For a complete video guide for more details, click <A href="https://www.youtube.com/watch?v=X_bYbJi4agw">here</A></P>
-
+   
        
 </body>
 </html>
